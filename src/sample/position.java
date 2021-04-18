@@ -6,9 +6,7 @@ public class position {
     private double z;
 
 
-    public double getZ() {
-        return z;
-    }
+
 
     public position(double x, double y, double z) {
         this.x = x;
@@ -18,5 +16,16 @@ public class position {
 
     public void setZ(double z) {
         this.z = z;
+    }
+    public double getZ() {
+        return z;
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
     }
 }

@@ -20,7 +20,7 @@ public class Main extends Application {
         Scene scene2 = new Scene(root2);
         Controller controller1 = game.getController();
         Camera camera = new PerspectiveCamera();
-        
+
 
 
         FXMLLoader menu = new FXMLLoader(getClass().getResource("sample0.fxml"));

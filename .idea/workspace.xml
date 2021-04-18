@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/position.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,6 +216,7 @@
       <workItem from="1618349768805" duration="506000" />
       <workItem from="1618385545255" duration="696000" />
       <workItem from="1618731970269" duration="4006000" />
+      <workItem from="1618739909290" duration="292000" />
     </task>
     <servers />
   </component>
@@ -232,10 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617706936867" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1618342795385">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1618740164786">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616320941441" />
+    <state x="2685" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618740164786" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618342795385" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1618339733860">
       <screen x="0" y="0" width="1920" height="1040" />
