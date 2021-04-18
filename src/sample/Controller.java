@@ -1,6 +1,7 @@
 package sample;
 
 import javafx.animation.AnimationTimer;
+import javafx.animation.PathTransition;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -14,6 +15,10 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.media.MediaView;
+import javafx.scene.shape.Circle;
+import javafx.scene.shape.MoveTo;
+import javafx.scene.shape.Path;
+import javafx.scene.shape.Sphere;
 import javafx.scene.text.Text;
 import javafx.scene.transform.Rotate;
 import javafx.scene.media.Media;
@@ -21,6 +26,7 @@ import java.io.File;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import javax.swing.text.Position;
 import java.io.IOException;
@@ -100,10 +106,12 @@ public class Controller {
     public void newMeteor(){
         int rnd = rn.nextInt(3);
         if (rnd == 1){
+            Path path = new Path();
             Meteor meteor = new Meteor(rn.nextInt(900), rn.nextInt(401)+100,rn.nextInt(500),rn.nextInt(30)+10);
             middlePane.getChildren().add(meteor.getGrafika());
             middle.add(meteor);
-            
+
+
         }
         if (rnd == 0){
             Meteor meteor = new Meteor(rn.nextInt(268), rn.nextInt(470)+80,rn.nextInt(500),rn.nextInt(30)+10);
