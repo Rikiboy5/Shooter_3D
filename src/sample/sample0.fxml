@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane id="stage" alignment="center" hgap="10" prefHeight="1080" prefWidth="1920" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints maxHeight="656.0" minHeight="48.0" prefHeight="656.0" />
+      <RowConstraints maxHeight="608.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="608.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="608.0" minHeight="0.0" prefHeight="0.0" />
+   </rowConstraints>
+   <children>
+      <ImageView id="bg" fitHeight="1080" fitWidth="1920" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+         <image>
+            <Image url="@background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="" fitHeight="380.0" fitWidth="934.0" pickOnBounds="true" preserveRatio="true" translateY="10.0" GridPane.rowIndex="1">
+         <image>
+            <Image url="@ship2.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="BOTTOM_LEFT" prefHeight="666.0" prefWidth="1141.0" GridPane.rowIndex="4">
+         <children>
+            <ImageView id="playButton" fx:id="play" accessibleRole="BUTTON" fitHeight="65.0" fitWidth="456.0" onMouseClicked="#launchGame" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@startButton.png" />
+               </image>
+            </ImageView>
+            <ImageView id="btn2" fx:id="exit" fitHeight="69.0" fitWidth="342.0" onMouseClicked="#exitGame" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@exitButton.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</GridPane>
